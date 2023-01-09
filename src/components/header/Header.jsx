@@ -6,21 +6,22 @@ import Header_Socials from "./Header_Socials";
 
 const Header = () => {
   return (
-    <div className="container header__container">
-      <h5>नमस्ते</h5>
-      <h1>Shasank Periwal</h1>
-      <h5 className="text-light">Student at KIIT University</h5>
-      <CTA />
+    <header>
+      <div className="container header__container">
+        <h5>नमस्ते</h5>
+        <h1>Shasank Periwal</h1>
+        <h5 className="text-light">Student at KIIT University</h5>
+        <CTA />
+        <Header_Socials />
+        <div className="me">
+          <img src={ME} alt="me" />
+        </div>
 
-      <div className="me">
-        <img src={ME} alt="me" />
+        <a href="#contact" className="scroll_down">
+          Scroll Down
+        </a>
       </div>
-
-      <a href="#contact" className="scroll_down">
-        Scroll Down
-      </a>
-      <Header_Socials />
-    </div>
+    </header>
   );
 };
 
