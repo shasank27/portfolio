@@ -14,9 +14,9 @@ const Header_Socials = () => {
       <a href="https://github.com/shasank27" target="_blank">
         <BsGithub />
       </a>
-      <a href="https://www.instagram.com/shasankperiwal/" target="_blank">
+      {/* <a href="https://www.instagram.com/shasankperiwal/" target="_blank">
         <BsInstagram />
-      </a>
+      </a> */}
       <a href="https://leetcode.com/shasank27/" target="_blank">
         <SiLeetcode />
       </a>
